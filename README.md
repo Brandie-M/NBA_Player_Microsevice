@@ -45,3 +45,7 @@ When you call the `get_random_player()` function in the main program, the micros
 }
 ```
 This object can then be used as the user sees fit to search the NBA API for additional information on the player using the player ID or name. 
+
+## UML Sequence Diagram 
+![image](https://github.com/Brandie-M/NBA_Player_Microsevice/assets/103692387/d7c6714c-7139-4fac-985e-79a6bb7b9a36)
+
