@@ -13,6 +13,8 @@ Required dependencies needed to run the microservice include:
 ## Requesting Data from the microservice
 In order to make a request from the microservice, you will need to define a function in your main program to make an HTTP get request to the microservice. In Python, that could look like this: 
 ```
+  import requests
+
   def get_random_player():
       url = "http://127.0.0.1:5000/player_data"
       response = requests.get(url)
